@@ -8,4 +8,9 @@ abstract class Topping {
     }
 
     public abstract double calculatePrice(int size);
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
