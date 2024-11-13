@@ -56,10 +56,10 @@ public class UserInterface {
                         addDrink();
                         break;
                     case 3:
-                       ;
+                        addChips();
                         break;
                     case 4:
-                        ;
+                      ;
                         ordering = false;
                         break;
                     case 0:
@@ -148,5 +148,12 @@ public class UserInterface {
         Drink drink = new Drink(size, flavor);
         currentOrder.addDrink(drink);
         System.out.println("Drink added to order.");
+    }
+
+    private void addChips() {
+        System.out.print("Enter chip type: ");
+        String chipType = scanner.nextLine();
+        currentOrder.addChip(new Chip(chipType));
+        System.out.println("Chips added to order.");
     }
 }
