@@ -26,4 +26,11 @@ public class Sandwich {
     public void addSauce(String sauce) {
         this.toppings.add(new Sauce(sauce));
     }
+
+    private double getBreadPrice() {
+        if (breadType.equals("white")) return size.equals("4") ? 5.50 : size.equals("8") ? 7.00 : 8.50;
+        else if (breadType.equals("wheat")) return size.equals("4") ? 6.00 : size.equals("8") ? 7.50 : 9.00;
+        else if (breadType.equals("rye")) return size.equals("4") ? 6.50 : size.equals("8") ? 8.00 : 9.50;
+        else return size.equals("4") ? 7.00 : size.equals("8") ? 8.50 : 10.00; // wrap
+    }
 }
