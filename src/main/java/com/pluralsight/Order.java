@@ -33,4 +33,14 @@ public class Order {
         for (Chip chip : chips) total += chip.calculatePrice();
         return total;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Sandwich sandwich : sandwiches) sb.append(sandwich.toString()).append("\n");
+        for (Drink drink : drinks) sb.append(drink.toString()).append("\n");
+        for (Chip chip : chips) sb.append(chip.toString()).append("\n");
+        sb.append("Total: $").append(calculateTotal());
+        return sb.toString();
+    }
 }
