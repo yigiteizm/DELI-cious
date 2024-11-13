@@ -33,4 +33,12 @@ public class Sandwich {
         else if (breadType.equals("rye")) return size.equals("4") ? 6.50 : size.equals("8") ? 8.00 : 9.50;
         else return size.equals("4") ? 7.00 : size.equals("8") ? 8.50 : 10.00; // wrap
     }
+
+    public double calculatePrice() {
+        double price = getBreadPrice();
+        for (Topping topping : toppings) {
+            price += topping.calculatePrice(Integer.parseInt(size));
+        }
+        return price;
+    }
 }
