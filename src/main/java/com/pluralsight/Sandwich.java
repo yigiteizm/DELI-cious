@@ -41,4 +41,29 @@ public class Sandwich {
         }
         return price;
     }
+
+    @Override
+    public String toString() {
+       
+        String result = "Sandwich - Size: " + size + ", Bread: " + breadType +
+                " - Price: $" + String.format("%.2f", calculatePrice()) + "\n";
+
+        for (Topping topping : toppings) {
+            if (result.endsWith(", ")) {
+                result = result + topping.toString();
+            } else {
+                result += topping.toString() + ", ";
+            }
+        }
+
+        if (isToasted) {
+            result += " - Toasted";
+        }
+
+        if (result.endsWith(", ")) {
+            result = result.substring(0, result.length() - 2);
+        }
+
+        return result;
+    }
 }
