@@ -1,0 +1,3 @@
+Sandwich - Size: 8, Bread: white - Price: $10.50
+ham, edam, tomato, buffalo
+Total: $10.5

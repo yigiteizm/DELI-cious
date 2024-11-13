@@ -31,7 +31,7 @@ public class Sandwich {
         if (breadType.equals("white")) return size.equals("4") ? 5.50 : size.equals("8") ? 7.00 : 8.50;
         else if (breadType.equals("wheat")) return size.equals("4") ? 6.00 : size.equals("8") ? 7.50 : 9.00;
         else if (breadType.equals("rye")) return size.equals("4") ? 6.50 : size.equals("8") ? 8.00 : 9.50;
-        else return size.equals("4") ? 7.00 : size.equals("8") ? 8.50 : 10.00; // wrap
+        else return size.equals("4") ? 7.00 : size.equals("8") ? 8.50 : 10.00;
     }
 
     public double calculatePrice() {
@@ -44,26 +44,24 @@ public class Sandwich {
 
     @Override
     public String toString() {
+        StringBuilder result = new StringBuilder("Sandwich - Size: " + size + ", Bread: " + breadType +
+                " - Price: $" + String.format("%.2f", calculatePrice()) + "\n");
 
-        String result = "Sandwich - Size: " + size + ", Bread: " + breadType +
-                " - Price: $" + String.format("%.2f", calculatePrice()) + "\n";
-
+        StringBuilder toppingsString = new StringBuilder();
         for (Topping topping : toppings) {
-            if (result.endsWith(", ")) {
-                result = result + topping.toString();
-            } else {
-                result += topping.toString() + ", ";
+            if (toppingsString.length() > 0) {
+                toppingsString.append(", "); // Toppings arasına boşluk ekleme
             }
+            toppingsString.append(topping.toString());
+        }
+        if (toppingsString.length() > 0) {
+            result.append(toppingsString.toString()).append("\n");
         }
 
         if (isToasted) {
-            result += " - Toasted";
+            result.append(" - Toasted\n");
         }
 
-        if (result.endsWith(", ")) {
-            result = result.substring(0, result.length() - 2);
-        }
-
-        return result;
+        return result.toString().trim();
     }
 }
