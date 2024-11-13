@@ -44,7 +44,7 @@ public class Sandwich {
 
     @Override
     public String toString() {
-       
+
         String result = "Sandwich - Size: " + size + ", Bread: " + breadType +
                 " - Price: $" + String.format("%.2f", calculatePrice()) + "\n";
 
