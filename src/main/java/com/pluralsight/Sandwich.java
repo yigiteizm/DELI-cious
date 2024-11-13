@@ -13,6 +13,9 @@ public class Sandwich {
         this.size = size;
         this.breadType = breadType;
         this.toppings = new ArrayList<>();
-        
+    }
+
+    public void setToasted(boolean toasted) {
+        this.isToasted = toasted;
     }
 }
