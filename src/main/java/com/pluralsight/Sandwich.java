@@ -18,4 +18,8 @@ public class Sandwich {
     public void setToasted(boolean toasted) {
         this.isToasted = toasted;
     }
+
+    public void addTopping(Topping topping) {
+        this.toppings.add(topping);
+    }
 }
