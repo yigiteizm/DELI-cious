@@ -53,7 +53,7 @@ public class UserInterface {
                         customizeSandwich();
                         break;
                     case 2:
-                        ;
+                        addDrink();
                         break;
                     case 3:
                        ;
