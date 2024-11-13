@@ -25,4 +25,12 @@ public class Order {
     public void addChip(Chip chip) {
         chips.add(chip);
     }
+
+    public double calculateTotal() {
+        double total = 0;
+        for (Sandwich sandwich : sandwiches) total += sandwich.calculatePrice();
+        for (Drink drink : drinks) total += drink.calculatePrice();
+        for (Chip chip : chips) total += chip.calculatePrice();
+        return total;
+    }
 }
