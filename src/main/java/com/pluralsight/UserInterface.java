@@ -7,4 +7,8 @@ public class UserInterface {
     private Order currentOrder;
     private OrderFileManager fileManager;
 
+    public UserInterface() {
+        this.scanner = new Scanner(System.in);
+        this.fileManager = new OrderFileManager();
+    }
 }
