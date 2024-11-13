@@ -59,7 +59,7 @@ public class UserInterface {
                         addChips();
                         break;
                     case 4:
-                      ;
+                        checkout();
                         ordering = false;
                         break;
                     case 0:
@@ -155,5 +155,21 @@ public class UserInterface {
         String chipType = scanner.nextLine();
         currentOrder.addChip(new Chip(chipType));
         System.out.println("Chips added to order.");
+    }
+
+    private void checkout() {
+        System.out.println(currentOrder.toString());
+        System.out.print("Confirm order? (y/n): ");
+        String confirm = scanner.nextLine();
+        if (confirm.equalsIgnoreCase("y")) {
+            try {
+                fileManager.saveReceipt(currentOrder);
+                System.out.println("Order confirmed and saved.");
+            } catch (Exception e) {
+                System.out.println("An error occurred while saving the receipt: " + e.getMessage());
+            }
+        } else {
+            System.out.println("Order canceled.");
+        }
     }
 }
