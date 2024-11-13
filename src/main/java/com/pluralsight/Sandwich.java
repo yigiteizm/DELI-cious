@@ -22,4 +22,8 @@ public class Sandwich {
     public void addTopping(Topping topping) {
         this.toppings.add(topping);
     }
+
+    public void addSauce(String sauce) {
+        this.toppings.add(new Sauce(sauce));
+    }
 }
