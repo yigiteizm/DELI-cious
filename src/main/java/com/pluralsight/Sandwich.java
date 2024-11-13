@@ -42,6 +42,7 @@ public class Sandwich {
         return price;
     }
 
+    
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder("Sandwich - Size: " + size + ", Bread: " + breadType +
