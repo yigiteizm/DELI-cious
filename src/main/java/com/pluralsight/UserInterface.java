@@ -53,13 +53,13 @@ public class UserInterface {
                         customizeSandwich();
                         break;
                     case 2:
-
+                        ;
                         break;
                     case 3:
-
+                       ;
                         break;
                     case 4:
-
+                        ;
                         ordering = false;
                         break;
                     case 0:
@@ -129,5 +129,24 @@ public class UserInterface {
         }
         currentOrder.addSandwich(newSandwich);
         System.out.println("Sandwich added to order.");
+    }
+
+    private void addDrink() {
+        System.out.print("Enter drink size (small, medium, large): ");
+        String size = scanner.nextLine();
+        if (!size.equalsIgnoreCase("small") && !size.equalsIgnoreCase("medium") && !size.equalsIgnoreCase("large")) {
+            System.out.println("Invalid drink size. Defaulting to 'small'.");
+            size = "small";
+        }
+
+        System.out.print("Enter flavor (or 'none' if you don't want a flavor): ");
+        String flavor = scanner.nextLine();
+        if (flavor.equalsIgnoreCase("none")) {
+            flavor = "";
+        }
+
+        Drink drink = new Drink(size, flavor);
+        currentOrder.addDrink(drink);
+        System.out.println("Drink added to order.");
     }
 }
