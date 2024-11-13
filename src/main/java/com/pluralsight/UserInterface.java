@@ -50,7 +50,7 @@ public class UserInterface {
                 int choice = Integer.parseInt(scanner.nextLine());
                 switch (choice) {
                     case 1:
-
+                        customizeSandwich();
                         break;
                     case 2:
 
