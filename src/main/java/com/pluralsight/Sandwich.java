@@ -28,10 +28,16 @@ public class Sandwich {
     }
 
     private double getBreadPrice() {
-        if (breadType.equals("white")) return size.equals("4") ? 5.50 : size.equals("8") ? 7.00 : 8.50;
-        else if (breadType.equals("wheat")) return size.equals("4") ? 6.00 : size.equals("8") ? 7.50 : 9.00;
-        else if (breadType.equals("rye")) return size.equals("4") ? 6.50 : size.equals("8") ? 8.00 : 9.50;
-        else return size.equals("4") ? 7.00 : size.equals("8") ? 8.50 : 10.00;
+        switch (size) {
+            case "4":
+                return 5.50;
+            case "8":
+                return 7.00;
+            case "12":
+                return 8.50;
+            default:
+                throw new IllegalArgumentException("Invalid sandwich size: " + size);
+        }
     }
 
     public double calculatePrice() {
@@ -42,26 +48,25 @@ public class Sandwich {
         return price;
     }
 
-    
+
     @Override
     public String toString() {
-        StringBuilder result = new StringBuilder("Sandwich - Size: " + size + ", Bread: " + breadType +
-                " - Price: $" + String.format("%.2f", calculatePrice()) + "\n");
+        StringBuilder result = new StringBuilder("Sandwich  Size: " + size + ", Bread: " + breadType +
+                " - Bread Price: $" + String.format("%.2f", getBreadPrice()) + "\n");
 
         StringBuilder toppingsString = new StringBuilder();
         for (Topping topping : toppings) {
             if (toppingsString.length() > 0) {
-                toppingsString.append(", "); // Toppings arasına boşluk ekleme
+                toppingsString.append(", ");
             }
-            toppingsString.append(topping.toString());
+            toppingsString.append(topping.name).append(String.format(" ($%.2f)", topping.calculatePrice(Integer.parseInt(size))));
         }
         if (toppingsString.length() > 0) {
-            result.append(toppingsString.toString()).append("\n");
+            result.append("Toppings: ").append(toppingsString.toString()).append("\n");
         }
 
-        if (isToasted) {
-            result.append(" - Toasted\n");
-        }
+
+        result.append("Toasted: ").append(isToasted ? "Yes" : "No").append("\n");
 
         return result.toString().trim();
     }

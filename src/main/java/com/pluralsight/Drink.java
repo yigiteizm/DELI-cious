@@ -21,6 +21,6 @@ public class Drink {
 
     @Override
     public String toString() {
-        return String.format("Drink - Size: %s, Flavors: %s - $%.2f", size, flavors, calculatePrice());
+        return String.format("Drink Size: %s, Flavors: %s - $%.2f", size, flavors, calculatePrice());
     }
 }
