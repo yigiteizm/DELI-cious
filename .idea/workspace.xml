@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e63439f-325d-45b4-a5bc-b411a8d5e935" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Chip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Chip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Sandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/Chip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/Chip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/Drink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/Sandwich.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/Sandwich.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/UserInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +31,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2oaBjFiWhGTGWOV1xL55DBA8QEB" />
   <component name="ProjectLevelVcsManager">
