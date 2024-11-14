@@ -2,29 +2,38 @@
 
 ## Description of the Project
 
+The **DELI-cious Sandwich Shop** is a Java console application designed for managing a sandwich shop's menu and orders.
+Here's what it offers:
 
-As a customer, I want to start a new order from the home screen.
-As a customer, I want to add multiple sandwiches to my order.
-As a customer, I want to choose from different meats for my sandwich.
-As a customer, I want to select cheeses for my sandwich.
-As a customer, I want to add regular toppings to my sandwich without additional cost.
-As a customer, I want to add extra toppings for a fee.
-As a customer, I want to choose sauces to complement my sandwich.
-As a customer, I want to see the price of my sandwich update as I add toppings.
-As a customer, I want to add drinks in various sizes to my order.
-As a customer, I want to add chips to my order.
-As a customer, I want to review my entire order before finalizing it.
-As a customer, I want to confirm my order to finalize the purchase.
-As a customer, I want to cancel my order if I decide not to proceed.
-As a customer, I want to navigate back to the home screen after completing my order or canceling it.
-As a customer, I want the application to remember my last order for quick reordering.
+- **New Order:** Begin your order from the main menu.
+- **Customize Sandwich**
+  - Choose your sandwich size and bread type.
+  - Add meats, cheeses, sauces, and toppings.
+- **Add Drinks:** Select from various sizes and flavors of drinks.
+- **Add Chips:** Option to add special or regular chips.
+- **Review Order:** Check over your order before any final decisions.
+- **Price Update:** See the price change as you customize your sandwich.
+- **Confirm Order:** Finalize your meal selection.
+
+
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a customer, I want to start a new order from the home screen.
+- As a customer, I want to add multiple topping to my sandwich.
+- As a customer, I want to choose from different meats for my sandwich.
+- As a customer, I want to select cheeses for my sandwich.
+- As a customer, I want to add regular toppings to my sandwich without additional cost.
+- As a customer, I want to add extra toppings for a fee.
+- As a customer, I want to choose sauces to complement my sandwich.
+- As a customer, I want to see the price of my sandwich update as I add toppings.
+- As a customer, I want to add drinks in various sizes to my order.
+- As a customer, I want to add chips to my order.
+- As a customer, I want to review my entire order before finalizing it.
+- As a customer, I want to confirm my order to finalize the purchase.
+- As a customer, I want to cancel my order if I decide not to proceed.
+- As a customer, I want to navigate back to the home screen after completing my order or canceling it.
+- As a customer, I want to toast my sandwich, So that I can enjoy it warm and crispy.
 
 ## Setup
 
@@ -47,37 +56,40 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java: Amazon Corretto version 17.0.12.
+- IntelliJ IDEA.
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
 
-![Application Screenshot](path/to/your/screenshot.png)
+
+
 
 ## Future Work
 
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- **Special Discounts:** Implement discounts for veterans, seniors, and students.
+- **Save Favorites:** So people can order their favorite sandwich again.
 
 ## Resources
+- **Tutorials and Documentation:**
+- [Java Programming Tutorial](https://www.w3schools.com/java)
+- [Java Documentation](https://docs.oracle.com/javase/8/docs/api/)
+- [Tutorials Point Java](https://www.tutorialspoint.com/java/index.htm)
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
+- **Learning Platforms:**
+- [Year Up United](https://yearup.brightspace.com/d2l/home/8605)
 
-- [Java Programming Tutorial](https://www.example.com)
-- [Effective Java](https://www.example.com)
+- **Code Examples and References:**
+- [Java Code Library](https://www.baeldung.com/java-current-month-start-date#:~:text=Using%20the%20LocalDate%20Class,date%20with%20the%20day%20altered.)
+- [GeeksforGeeks Java](https://www.geeksforgeeks.org/java/)
+
+- **Community Support:**
+- [Stack Overflow - Java](https://stackoverflow.com/questions/tagged/java)
 
 ## Team Members
 
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
-
+- **Yigit Demirci** - Project Developer.
+-
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
-
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+- Thank you to Raymond Maroun for continuous support and guidance.
