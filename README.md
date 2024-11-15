@@ -113,7 +113,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 ## Team Members
 
 - **Yigit Demirci** - Project Developer.
--
+
 ## Thanks
 
 - Thank you to Raymond Maroun for continuous support and guidance.
