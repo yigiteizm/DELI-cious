@@ -16,6 +16,9 @@ Here's what it offers:
 - **Confirm Order:** Finalize your meal selection.
 
 
+                       DELI-cious Class Diagram
+![DELI-cious Finalized.drawio.png](imgs%2FDELI-cious%20Finalized.drawio.png)
+
 
 ## User Stories
 
@@ -60,10 +63,30 @@ Follow these steps to get your application running within IntelliJ IDEA:
 - IntelliJ IDEA.
 
 ## Demo
+- Here are screenshots that show the main features of the application.
+### Main Menu of DELI-cious
+![Main Menu](imgs/Main%20Menu.JPG)
 
+### Order Customization Menu
+![Order Menu](imgs/Order%20Menu.JPG)
 
+### Sandwich Customization Interface
+![Sandwich Customization](imgs/Adding%20Sandwich%20Menu.JPG)
 
+### Selection Menu for Premium Toppings: Cheese and Meat
+![Premium Toppings Selection](imgs/Multiple%20choose%20Chese%20and%20Meat.JPG)
 
+### Selection Menu for Regular Toppings and Sauces
+![Regular Toppings and Sauces Selection](imgs/Multiple%20choose%20Regular%20Topping%20and%20Sauce.JPG)
+
+### Drink Customization Menu: Size and Flavor
+![Drink Customization](imgs/drink%20size%20and%20flavor%20choose.JPG)
+
+### Chip Options Menu
+![Chip Options](imgs/Chips%20options.JPG)
+
+### Order Review and Confirmation Menu
+![Order Confirmation Screen](imgs/User%20confirmation%20end%20of%20the%20order.JPG)
 
 ## Future Work
 
@@ -88,7 +111,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Team Members
 
-- **Yigit Demirci** - Project Developer.
+- **Yigit ** - Project Developer.
 -
 ## Thanks
 

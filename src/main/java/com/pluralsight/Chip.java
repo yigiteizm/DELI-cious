@@ -14,5 +14,6 @@ public class Chip {
     @Override
     public String toString() {
         return String.format("Chip Type: %s - $%.2f", type, calculatePrice());
+
     }
 }
