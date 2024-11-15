@@ -10,6 +10,5 @@ public class Cheese extends Topping {
         if (size == 4) return 0.75;
         else if (size == 8) return 1.50;
         else return 2.25;
-
     }
 }

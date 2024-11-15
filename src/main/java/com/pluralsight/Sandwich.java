@@ -69,6 +69,5 @@ public class Sandwich {
         result.append("Toasted: ").append(isToasted ? "Yes" : "No").append("\n");
 
         return result.toString().trim();
-
     }
 }

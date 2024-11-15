@@ -16,7 +16,7 @@ Here's what it offers:
 - **Confirm Order:** Finalize your meal selection.
 
 
-                       DELI-cious Class Diagram
+### DELI-cious Class Diagram                         
 ![DELI-cious Finalized.drawio.png](imgs%2FDELI-cious%20Finalized.drawio.png)
 
 
@@ -111,7 +111,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Team Members
 
-- **Yigit ** - Project Developer.
+- **Yigit Demirci** - Project Developer.
 -
 ## Thanks
 

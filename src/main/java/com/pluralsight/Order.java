@@ -42,6 +42,5 @@ public class Order {
         for (Chip chip : chips) sb.append(chip.toString()).append("\n");
         sb.append("Total: $").append(calculateTotal());
         return sb.toString();
-
     }
 }

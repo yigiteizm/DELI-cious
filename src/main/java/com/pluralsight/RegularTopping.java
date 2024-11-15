@@ -8,6 +8,5 @@ public class RegularTopping extends Topping {
     @Override
     public double calculatePrice(int size) {
         return 0.0;
-
     }
 }

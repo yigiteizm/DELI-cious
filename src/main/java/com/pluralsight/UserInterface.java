@@ -36,7 +36,7 @@ public class UserInterface {
                     default:
                         System.out.println("Invalid option. Please try again.");
                 }
-            } catch (NumberFormatException e) {
+            } catch (Exception e) {
                 System.out.println("Please enter a valid number.");
             }
         }
@@ -200,7 +200,7 @@ public class UserInterface {
                     } else {
                         System.out.println("Invalid sauce selection: " + (index + 1) + ". Skipping.");
                     }
-                } catch (NumberFormatException e) {
+                } catch (Exception e) {
                     System.out.println("Please enter valid numbers. Skipping invalid input.");
                 }
             }
@@ -229,7 +229,7 @@ public class UserInterface {
 
         System.out.print("Please select a drink size by number: ");
         String sizeInput = scanner.nextLine();
-        int sizeIndex = 0; // Default to Small
+        int sizeIndex = 0;
 
         try {
             sizeIndex = Integer.parseInt(sizeInput) - 1;
@@ -237,7 +237,7 @@ public class UserInterface {
                 System.out.println("Invalid size, using Small.");
                 sizeIndex = 0;
             }
-        } catch (NumberFormatException e) {
+        } catch (Exception e) {
             System.out.println("Not a number, using Small.");
         }
 
@@ -259,7 +259,7 @@ public class UserInterface {
                 System.out.println("Invalid flavor, using None.");
                 flavorIndex = flavors.size();
             }
-        } catch (NumberFormatException e) {
+        } catch (Exception e) {
             System.out.println("Not a number, using None.");
         }
 
@@ -301,7 +301,7 @@ public class UserInterface {
                 default:
                     System.out.println("Invalid choice. No chips added.");
             }
-        } catch (NumberFormatException e) {
+        } catch (Exception e) {
             System.out.println("Invalid input. Please enter a number next time. No chips added.");
         }
     }
