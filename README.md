@@ -22,21 +22,22 @@ Here's what it offers:
 
 ## User Stories
 
-- As a customer, I want to start a new order from the home screen.
-- As a customer, I want to add multiple topping to my sandwich.
-- As a customer, I want to choose from different meats for my sandwich.
-- As a customer, I want to select cheeses for my sandwich.
-- As a customer, I want to add regular toppings to my sandwich without additional cost.
-- As a customer, I want to add extra toppings for a fee.
-- As a customer, I want to choose sauces to complement my sandwich.
-- As a customer, I want to see the price of my sandwich update as I add toppings.
-- As a customer, I want to add drinks in various sizes to my order.
-- As a customer, I want to add chips to my order.
-- As a customer, I want to review my entire order before finalizing it.
-- As a customer, I want to confirm my order to finalize the purchase.
-- As a customer, I want to cancel my order if I decide not to proceed.
-- As a customer, I want to navigate back to the home screen after completing my order or canceling it.
-- As a customer, I want to toast my sandwich, So that I can enjoy it warm and crispy.
+- As a user, I want to start a new order from the home screen so that I can begin shopping quickly.
+- As a user, I want to choose the size of my sandwich, so that I can customize it to my portion preference.
+- As a user, I want to select the bread type for my sandwich, so that I can personalize my meal.
+- As a user, I want to add multiple toppings to my sandwich, so that I can customize it to my taste.
+- As a user, I want to choose from various types of meat for my sandwich, so I can enjoy more variety.
+- As a user, I want to select cheeses for my sandwich, so that I can make the flavor profile better.
+- As a user, I want to add Regular toppings to my sandwich for free, so I can enjoy variety at no extra cost.
+- As a user, I want to add sauces to my sandwich, so that I can complement the flavors.
+- As a user, I want to toast my sandwich, so that I can enjoy it warm and crispy.
+- As a user, I want to add a drink to my order, so that I can have something to drink with my meal.
+- As a user, I want to choose the size of my drink, so that I can decide how much I want to drink.
+- As a user, I want to add chips to my order so that I can complete my meal.
+- As a user, I want to review my order before finalizing so that I can make sure it's correct.
+- As a user, I want to confirm my order to complete the purchase so that I can finish my transaction.
+- As a user, I want to cancel my order if I change my mind so that I can have flexibility.
+
 
 ## Setup
 
